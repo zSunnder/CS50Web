@@ -10,12 +10,12 @@ header {
 
 #input-text {
     font-family: Arial, sans-serif;
-    line-height: 22px;
+    line-height: 28px;
     overflow-x: hidden;
     border-radius: 30px;
     font-size: 18px; /* Increase font size */
     padding: 12px 20px; /* Increase padding */
-    width: 70%; /* Increase width */
+    width: 50%; /* Increase width */
     box-sizing: border-box; /* Ensure padding is included in the width */
     background-color: #444746;
     color: white;
@@ -56,6 +56,9 @@ h1 {
 
 #form-main {
     text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 p {
@@ -166,8 +169,22 @@ button {
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
-    min-width: 54px;
+    max-width: 150px;
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+
+#center {
+    display: block;
+    text-align: -webkit-center;
+    unicode-bidi: isolate;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color:white;
 }
